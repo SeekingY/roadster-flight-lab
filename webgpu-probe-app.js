@@ -41,7 +41,9 @@ async function init(){
   const vapor=makeVapor();scene.add(vapor.jets,vapor.mist);
   let adapterInfo=renderer.backend.device?.adapterInfo;
   if(!adapterInfo&&navigator.gpu){try{adapterInfo=(await navigator.gpu.requestAdapter())?.info}catch{}}
-  report={three:THREE.REVISION,requested,backend:renderer.backend.constructor.name,secure:isSecureContext,gpuAPI:!!navigator.gpu,adapter:adapterInfo?{vendor:adapterInfo.vendor,architecture:adapterInfo.architecture,isFallbackAdapter:adapterInfo.isFallbackAdapter}:null,fallbackReason,parts:car.parts.length,customShaderMaterials:0,rendered:false,frames:0,vapor:'instanced camera-facing CanvasTexture quads; standard MeshBasicMaterial; no custom GLSL'};
+  // Class names are minified by the release bundler; Three.js backend flags are stable.
+  const backendId=renderer.backend.isWebGPUBackend?'WebGPUBackend':renderer.backend.isWebGLBackend?'WebGLBackend':'UnknownBackend';
+  report={three:THREE.REVISION,requested,backend:backendId,backendClassName:renderer.backend.constructor.name,secure:isSecureContext,gpuAPI:!!navigator.gpu,adapter:adapterInfo?{vendor:adapterInfo.vendor,architecture:adapterInfo.architecture,isFallbackAdapter:adapterInfo.isFallbackAdapter}:null,fallbackReason,parts:car.parts.length,customShaderMaterials:0,rendered:false,frames:0,vapor:'instanced camera-facing CanvasTexture quads; standard MeshBasicMaterial; no custom GLSL'};
   scene.traverse(o=>{if(o.material?.isShaderMaterial)report.customShaderMaterials++});
   const applyPose=()=>{
     const s=sampleSequence(ui.time,ui.mode);lastState=s;ui.time=s.time;
