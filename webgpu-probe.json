@@ -1,0 +1,1055 @@
+{
+  "reports": [
+    {
+      "three": "170",
+      "requested": "WebGPU",
+      "backend": "WebGPUBackend",
+      "secure": true,
+      "gpuAPI": true,
+      "adapter": {
+        "vendor": "nvidia",
+        "architecture": "lovelace",
+        "isFallbackAdapter": false
+      },
+      "fallbackReason": null,
+      "parts": 111,
+      "customShaderMaterials": 0,
+      "rendered": true,
+      "frames": 36,
+      "vapor": "instanced camera-facing CanvasTexture quads; standard MeshBasicMaterial; no custom GLSL",
+      "status": "实际后端 WebGPU · nvidia lovelace · 111 parts"
+    },
+    {
+      "three": "170",
+      "requested": "WebGL2",
+      "backend": "WebGLBackend",
+      "secure": true,
+      "gpuAPI": true,
+      "adapter": {
+        "vendor": "nvidia",
+        "architecture": "lovelace",
+        "isFallbackAdapter": false
+      },
+      "fallbackReason": null,
+      "parts": 111,
+      "customShaderMaterials": 0,
+      "rendered": true,
+      "frames": 34,
+      "vapor": "instanced camera-facing CanvasTexture quads; standard MeshBasicMaterial; no custom GLSL",
+      "status": "实际后端 WebGL 2 · nvidia lovelace · 111 parts"
+    },
+    {
+      "three": "170",
+      "requested": "WebGPU",
+      "backend": "WebGLBackend",
+      "secure": true,
+      "gpuAPI": false,
+      "adapter": null,
+      "fallbackReason": "当前上下文未提供 navigator.gpu（需要受支持浏览器及安全上下文）",
+      "parts": 111,
+      "customShaderMaterials": 0,
+      "rendered": true,
+      "frames": 4,
+      "vapor": "instanced camera-facing CanvasTexture quads; standard MeshBasicMaterial; no custom GLSL",
+      "status": "实际后端 WebGL 2 · adapter  · 111 parts · 自动回退"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "samples": [
+    {
+      "backend": "webgpu",
+      "name": "entry",
+      "mode": "full",
+      "t": 0,
+      "position": [
+        7.005000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "renderedPosition": [
+        7.005000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "pitch": -4.084710345405123e-14,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        4.084710345405123e-14
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 0,
+      "phase": "驶入弯道",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "climb",
+      "mode": "full",
+      "t": 10,
+      "position": [
+        -8.578695094526953,
+        4.787328733395227,
+        0
+      ],
+      "renderedPosition": [
+        -8.578695094526953,
+        4.787328733395227,
+        0
+      ],
+      "pitch": 1.000102709101152,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -1.000102709101152
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 10,
+      "phase": "沿轨爬升",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "inverted",
+      "mode": "full",
+      "t": 24,
+      "position": [
+        -0.09963093355342843,
+        20.74132648072453,
+        0
+      ],
+      "renderedPosition": [
+        -0.09963093355342843,
+        20.74132648072453,
+        0
+      ],
+      "pitch": 2.9670597283904,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -2.9670597283904
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 24,
+      "phase": "倒挂停留",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "return",
+      "mode": "full",
+      "t": 35,
+      "position": [
+        -9.043016225797302,
+        5.587525962036782,
+        0
+      ],
+      "renderedPosition": [
+        -9.043016225797302,
+        5.587525962036782,
+        0
+      ],
+      "pitch": 1.0908598302048567,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -1.0908598302048567
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 35,
+      "phase": "倒车沿轨返回",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "second-entry",
+      "mode": "full",
+      "t": 45,
+      "position": [
+        4.505000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "renderedPosition": [
+        4.505000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "pitch": -4.084710345405123e-14,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        4.084710345405123e-14
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 45,
+      "phase": "坡底停稳",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "release",
+      "mode": "full",
+      "t": 53,
+      "position": [
+        3.4003690664465718,
+        20.574,
+        0
+      ],
+      "renderedPosition": [
+        3.4003690664465718,
+        20.574,
+        0
+      ],
+      "pitch": 4.363323129985824,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -4.363323129985824
+      ],
+      "contact": false,
+      "plumePower": 0.52,
+      "time": 53,
+      "phase": "离轨 · 继续俯仰翻转",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "landing-jet",
+      "mode": "full",
+      "t": 55,
+      "position": [
+        14.900369066446572,
+        6.52272,
+        0
+      ],
+      "renderedPosition": [
+        14.900369066446572,
+        6.52272,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": false,
+      "plumePower": 1,
+      "time": 55,
+      "phase": "冷气制动 · 正立下降",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "landed",
+      "mode": "full",
+      "t": 58,
+      "position": [
+        23.945255430082938,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        23.945255430082938,
+        0,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": true,
+      "plumePower": 0.10841533615727166,
+      "time": 58,
+      "phase": "后退着陆 · 白雾散去",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "end",
+      "mode": "full",
+      "t": 64,
+      "position": [
+        24.700369066446573,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        24.700369066446573,
+        0,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 64,
+      "phase": "着陆停稳",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "kickflip-entry",
+      "mode": "kickflip",
+      "t": 0,
+      "position": [
+        42,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        42,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 0,
+      "phase": "沿白中线接近横向车队",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "kickflip",
+      "mode": "kickflip",
+      "t": 14,
+      "position": [
+        2,
+        9.4488,
+        0
+      ],
+      "renderedPosition": [
+        2,
+        9.4488,
+        0
+      ],
+      "pitch": 0,
+      "roll": 1.6580627893946132,
+      "rotation": [
+        -1.6580627893946132,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.55,
+      "time": 14,
+      "phase": "离地侧滚 · 跨越车队前缘",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "roll",
+      "mode": "kickflip",
+      "t": 15,
+      "position": [
+        -4,
+        7.28472,
+        0
+      ],
+      "renderedPosition": [
+        -4,
+        7.28472,
+        0
+      ],
+      "pitch": 0,
+      "roll": 3.839724354387525,
+      "rotation": [
+        -3.839724354387525,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.72,
+      "time": 15,
+      "phase": "完整滚转 · 冷气姿态调整",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "roll-complete",
+      "mode": "kickflip",
+      "t": 16.6,
+      "position": [
+        -14.225846153846163,
+        2.851128017454536,
+        0
+      ],
+      "renderedPosition": [
+        -14.225846153846163,
+        2.851128017454536,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179586,
+      "rotation": [
+        -6.283185307179586,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.9344719142041887,
+      "time": 16.6,
+      "phase": "翻正下降 · 近地白雾",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "kickflip-landed",
+      "mode": "kickflip",
+      "t": 18,
+      "position": [
+        -23,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        -23,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179587,
+      "rotation": [
+        -6.283185307179587,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0.4,
+      "time": 18,
+      "phase": "正向接地 · 白雾散去",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgpu",
+      "name": "kickflip-end",
+      "mode": "kickflip",
+      "t": 26,
+      "position": [
+        -35,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        -35,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179586,
+      "rotation": [
+        -6.283185307179586,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 26,
+      "phase": "继续前进",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "entry",
+      "mode": "full",
+      "t": 0,
+      "position": [
+        7.005000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "renderedPosition": [
+        7.005000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "pitch": -4.084710345405123e-14,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        4.084710345405123e-14
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 0,
+      "phase": "驶入弯道",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "climb",
+      "mode": "full",
+      "t": 10,
+      "position": [
+        -8.578695094526953,
+        4.787328733395227,
+        0
+      ],
+      "renderedPosition": [
+        -8.578695094526953,
+        4.787328733395227,
+        0
+      ],
+      "pitch": 1.000102709101152,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -1.000102709101152
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 10,
+      "phase": "沿轨爬升",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "inverted",
+      "mode": "full",
+      "t": 24,
+      "position": [
+        -0.09963093355342843,
+        20.74132648072453,
+        0
+      ],
+      "renderedPosition": [
+        -0.09963093355342843,
+        20.74132648072453,
+        0
+      ],
+      "pitch": 2.9670597283904,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -2.9670597283904
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 24,
+      "phase": "倒挂停留",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "return",
+      "mode": "full",
+      "t": 35,
+      "position": [
+        -9.043016225797302,
+        5.587525962036782,
+        0
+      ],
+      "renderedPosition": [
+        -9.043016225797302,
+        5.587525962036782,
+        0
+      ],
+      "pitch": 1.0908598302048567,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -1.0908598302048567
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 35,
+      "phase": "倒车沿轨返回",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "second-entry",
+      "mode": "full",
+      "t": 45,
+      "position": [
+        4.505000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "renderedPosition": [
+        4.505000000000015,
+        2.220446049250313e-16,
+        0
+      ],
+      "pitch": -4.084710345405123e-14,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        4.084710345405123e-14
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 45,
+      "phase": "坡底停稳",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "release",
+      "mode": "full",
+      "t": 53,
+      "position": [
+        3.4003690664465718,
+        20.574,
+        0
+      ],
+      "renderedPosition": [
+        3.4003690664465718,
+        20.574,
+        0
+      ],
+      "pitch": 4.363323129985824,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -4.363323129985824
+      ],
+      "contact": false,
+      "plumePower": 0.52,
+      "time": 53,
+      "phase": "离轨 · 继续俯仰翻转",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "landing-jet",
+      "mode": "full",
+      "t": 55,
+      "position": [
+        14.900369066446572,
+        6.52272,
+        0
+      ],
+      "renderedPosition": [
+        14.900369066446572,
+        6.52272,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": false,
+      "plumePower": 1,
+      "time": 55,
+      "phase": "冷气制动 · 正立下降",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "landed",
+      "mode": "full",
+      "t": 58,
+      "position": [
+        23.945255430082938,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        23.945255430082938,
+        0,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": true,
+      "plumePower": 0.10841533615727166,
+      "time": 58,
+      "phase": "后退着陆 · 白雾散去",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "end",
+      "mode": "full",
+      "t": 64,
+      "position": [
+        24.700369066446573,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        24.700369066446573,
+        0,
+        0
+      ],
+      "pitch": 6.283185307179586,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        -6.283185307179586
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 64,
+      "phase": "着陆停稳",
+      "ramp": true,
+      "fleet": false,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "kickflip-entry",
+      "mode": "kickflip",
+      "t": 0,
+      "position": [
+        42,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        42,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 0,
+      "phase": "沿白中线接近横向车队",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "kickflip",
+      "mode": "kickflip",
+      "t": 14,
+      "position": [
+        2,
+        9.4488,
+        0
+      ],
+      "renderedPosition": [
+        2,
+        9.4488,
+        0
+      ],
+      "pitch": 0,
+      "roll": 1.6580627893946132,
+      "rotation": [
+        -1.6580627893946132,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.55,
+      "time": 14,
+      "phase": "离地侧滚 · 跨越车队前缘",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "roll",
+      "mode": "kickflip",
+      "t": 15,
+      "position": [
+        -4,
+        7.28472,
+        0
+      ],
+      "renderedPosition": [
+        -4,
+        7.28472,
+        0
+      ],
+      "pitch": 0,
+      "roll": 3.839724354387525,
+      "rotation": [
+        -3.839724354387525,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.72,
+      "time": 15,
+      "phase": "完整滚转 · 冷气姿态调整",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "roll-complete",
+      "mode": "kickflip",
+      "t": 16.6,
+      "position": [
+        -14.225846153846163,
+        2.851128017454536,
+        0
+      ],
+      "renderedPosition": [
+        -14.225846153846163,
+        2.851128017454536,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179586,
+      "rotation": [
+        -6.283185307179586,
+        0,
+        0
+      ],
+      "contact": false,
+      "plumePower": 0.9344719142041887,
+      "time": 16.6,
+      "phase": "翻正下降 · 近地白雾",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "kickflip-landed",
+      "mode": "kickflip",
+      "t": 18,
+      "position": [
+        -23,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        -23,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179587,
+      "rotation": [
+        -6.283185307179587,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0.4,
+      "time": 18,
+      "phase": "正向接地 · 白雾散去",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "backend": "webgl",
+      "name": "kickflip-end",
+      "mode": "kickflip",
+      "t": 26,
+      "position": [
+        -35,
+        0,
+        0
+      ],
+      "renderedPosition": [
+        -35,
+        0,
+        0
+      ],
+      "pitch": 0,
+      "roll": 6.283185307179586,
+      "rotation": [
+        -6.283185307179586,
+        0,
+        0
+      ],
+      "contact": true,
+      "plumePower": 0,
+      "time": 26,
+      "phase": "继续前进",
+      "ramp": false,
+      "fleet": true,
+      "bodyHeight": 900,
+      "bodyWidth": 1440,
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "playback": {
+    "playing": false,
+    "time": 0.26910000000149015
+  }
+}

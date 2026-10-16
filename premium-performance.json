@@ -1,0 +1,74 @@
+{
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4080 Laptop GPU (0x000027A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1440,
+    900
+  ],
+  "pixelRatio": 1,
+  "parts": 111,
+  "results": [
+    {
+      "quality": "cinema",
+      "view": "exterior",
+      "mode": "full",
+      "time": 0,
+      "frames": 40,
+      "meanMs": 3.445000000111759,
+      "p50Ms": 3.2999999970197678,
+      "p95Ms": 5.899999998509884
+    },
+    {
+      "quality": "cinema",
+      "view": "test",
+      "mode": "full",
+      "time": 24,
+      "frames": 40,
+      "meanMs": 1.5924999999813736,
+      "p50Ms": 1.3999999985098839,
+      "p95Ms": 2.899999998509884
+    },
+    {
+      "quality": "cinema",
+      "view": "test",
+      "mode": "flight",
+      "time": 10,
+      "frames": 40,
+      "meanMs": 3.9424999999813735,
+      "p50Ms": 3.300000000745058,
+      "p95Ms": 7
+    },
+    {
+      "quality": "balanced",
+      "view": "exterior",
+      "mode": "full",
+      "time": 0,
+      "frames": 40,
+      "meanMs": 0.5850000000558794,
+      "p50Ms": 0.5,
+      "p95Ms": 1.1000000014901161
+    },
+    {
+      "quality": "balanced",
+      "view": "test",
+      "mode": "full",
+      "time": 24,
+      "frames": 40,
+      "meanMs": 0.8149999998509884,
+      "p50Ms": 0.6999999992549419,
+      "p95Ms": 1.5999999977648258
+    },
+    {
+      "quality": "balanced",
+      "view": "test",
+      "mode": "flight",
+      "time": 10,
+      "frames": 40,
+      "meanMs": 2.834999999962747,
+      "p50Ms": 2.599999997764826,
+      "p95Ms": 5.300000000745058
+    }
+  ],
+  "method": "40 scripted update+render+gl.finish samples after 8 warmups; desktop headless Chrome; includes CPU and GPU synchronization; not interactive FPS or a cross-engine ranking",
+  "errors": []
+}
