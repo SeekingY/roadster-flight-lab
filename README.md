@@ -1,6 +1,26 @@
-[在线 Demo](https://seekingy.github.io/roadster-flight-lab/) · [WebGPU 重放](https://seekingy.github.io/roadster-flight-lab/webgpu-probe-roadster.html?mode=full) · [画质对照](https://seekingy.github.io/roadster-flight-lab/quality-comparison.html)
-
 # Roadster Replay Lab
+
+**Grip. Flip. Touch down.** 用 Three.js / WebGPU 重建倒挂跑道、离轨着陆与 Kickflip。
+
+[![Roadster Replay Lab — 白色车辆外观与摄影棚反射，点击进入交互 Demo](media/cover.jpg)](https://seekingy.github.io/roadster-flight-lab/)
+
+### ▶ [观看完整 28 秒 Demo 影片 · 1080p](https://seekingy.github.io/roadster-flight-lab/roadster-film.mp4)
+
+**[亲自操控 Demo](https://seekingy.github.io/roadster-flight-lab/)** · [WebGPU 重放](https://seekingy.github.io/roadster-flight-lab/webgpu-probe-roadster.html?mode=full) · [画质前后对照](https://seekingy.github.io/roadster-flight-lab/quality-comparison.html) · [下载 MP4](roadster-film.mp4)
+
+[![8 秒真实 Demo 动图：离轨制动、着陆与完整 Kickflip；点击观看完整影片](media/flight-preview.gif)](https://seekingy.github.io/roadster-flight-lab/roadster-film.mp4)
+
+*8 秒循环预览，截自本项目实际渲染的 28 秒影片（18–26 秒）；不是 Tesla 原片。 / An 8-second excerpt from this demo's rendered film, not Tesla footage.*
+
+| 车辆外观 / Exterior | 倒挂停留 / Inverted ramp |
+| --- | --- |
+| [![车辆后侧外观：红色灯带、四个后部喷口与车身反射](media/exterior.jpg)](media/exterior.jpg) | [![车辆在 C 形跑道顶端约 170 度倒挂停留](media/inverted.jpg)](media/inverted.jpg) |
+| **离轨与冷气制动 / Airborne landing** | **跨越车队侧滚 / Kickflip** |
+| [![车辆离开跑道后翻正，冷气视觉尾迹位于下方](media/airborne.jpg)](media/airborne.jpg) | [![车辆在横向车队上方完成侧滚，三束白气尾迹可见](media/kickflip.jpg)](media/kickflip.jpg) |
+
+上图与动图均来自本项目 Demo。可暂停、慢放、拖动时间线、自由观察，并切换 Anatomy 分解。非官方视觉重建，尺寸和连续轨迹含估计。
+
+---
 
 公开测试影像的交互式视觉重建。基于 Tesla 官方 Roadster Event，使用 Three.js 重建车辆外观、倒挂跑道、离轨着陆与独立 Kickflip；另附 WebGPU / WebGL2 实验入口和 Anatomy 分解视图。
 
